@@ -2,10 +2,12 @@
   "name": "sc-use-debounce",
   "version": "1.0.4",
   "description": "Biblioteca TypeScript de para usar o hook `useDebouncedValue` no React.",
-  "main": "./cjs/index.cjs",
-  "module": "./esm/index.mjs",
-  "types": "./lib/index.d.ts",
-  "author": "Saulo Costa",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "ISC",
   "scripts": {
     "build": "tsc",
