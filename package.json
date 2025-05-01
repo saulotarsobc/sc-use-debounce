@@ -8,8 +8,7 @@
   "license": "ISC",
   "type": "commonjs",
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsc",
     "prepare": "npm run build",
     "release:check": "git diff --exit-code",
     "release:patch": "npm version patch && npm publish",
@@ -31,7 +30,6 @@
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
     "react": "^19.1.0",
-    "tsup": "^8.4.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
