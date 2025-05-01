@@ -1,6 +1,6 @@
 {
   "name": "sc-use-debounce",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Biblioteca TypeScript de para usar o hook `useDebouncedValue` no React.",
   "main": "./cjs/index.cjs",
   "module": "./esm/index.mjs",
