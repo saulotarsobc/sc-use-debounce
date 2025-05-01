@@ -1,0 +1,28 @@
+{
+  "name": "sc-use-debounce",
+  "version": "1.0.0",
+  "description": "Biblioteca TypeScript de para usar o hook `useDebouncedValue` no React.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Saulo Costa",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "npm run build",
+    "release:check": "git diff --exit-code",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "release": "npm run release:patch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "react": "^19.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}

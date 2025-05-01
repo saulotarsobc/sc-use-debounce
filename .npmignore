@@ -1,0 +1,35 @@
+# Source code
+src/
+
+# Config files
+tsconfig.json
+.gitignore
+.git
+.npmignore
+
+# Development files
+.vscode/
+.idea/
+.github/
+
+# Tests
+tests/
+*.test.ts
+*.spec.ts
+
+# Documentation
+docs/
+*.md
+LICENSE
+
+# Misc
+*.log
+.DS_Store
+
+# Development dependencies
+node_modules/
+
+# Build artifacts
+*.tsbuildinfo
+.npm
+.eslintcache
