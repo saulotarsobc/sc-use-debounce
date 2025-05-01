@@ -17,12 +17,25 @@
     "release:major": "npm version major && npm publish",
     "release": "npm run release:patch"
   },
-  "keywords": [],
+  "keywords": [
+    "frontend",
+    "hooks",
+    "library",
+    "next",
+    "nextjs",
+    "react",
+    "react-hooks",
+    "state"
+  ],
   "devDependencies": {
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
     "react": "^19.1.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "peerDependencies": {
+    "react": "^18.x || ^19.x"
+  },
+  "sideEffects": false
 }
